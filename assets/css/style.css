@@ -2,6 +2,55 @@
 
 /*hero */
 
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.Hero-div-1, .Hero-div-2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Hero-div-2 {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Hero-div-2 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.Hero-div-2-button {
+    background-color: #007BFF;
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Hero-div-2-button:hover {
+    background-color: #0056b3;
+}
 /*functionality*/
 
 /*subscriptions*/
