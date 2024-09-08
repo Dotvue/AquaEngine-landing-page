@@ -1,21 +1,12 @@
-/*header */
-
-/*hero */
-
-/*functionality*/
-
-/*subscriptions*/
-
-/*recommendations */
 
 /*form */
 
-.form .container {
+.form .form__container {
     display: flex;
     align-content: center;
 }
 
-.left {
+.form__left {
     flex-basis: 30%;
     padding: 10px;
     border-radius: 40px;
@@ -27,7 +18,7 @@
     font-size: 1.5rem;
 }
 
-.right {
+.form__right {
     flex-basis: 60%;
     padding: 10px;
     border-radius: 40px;
@@ -37,7 +28,7 @@
     margin-left: 2rem;
 }
 
-.myform {
+.form__send {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -47,24 +38,24 @@
     width: 90%;
 }
 
-.form-row {
+.form-form__row {
     display: flex;
     gap: 25px;
 }
-.form-row input {
+.form-form__row input {
     flex: 1;
     padding: 15px;
     font-size: 1.5rem;
     border-radius: 10px;
 }
-.mes {
+.row__month {
     width: 95%;
     padding: 15px;
     font-size: 1.5rem;
     border-radius: 10px;
 }
 
-.right .button {
+.form__right .form__btn {
     width: 90%;
     margin: 1rem;
     padding: 20px;
@@ -76,4 +67,3 @@
     transition: background 0.3s;
 }
 
-/*footer */
