@@ -10,4 +10,70 @@
 
 /*form */
 
+.form .container {
+    display: flex;
+    align-content: center;
+}
+
+.left {
+    flex-basis: 30%;
+    padding: 10px;
+    border-radius: 40px;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+    font-size: 1.5rem;
+}
+
+.right {
+    flex-basis: 60%;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 4px 0 6px rgba(0, 0, 0, 0.1); /* Sombra en los bordes inferiores y derechos */
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+}
+
+.form-row {
+    display: flex;
+    gap: 25px;
+}
+.form-row input {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.mes {
+    width: 95%;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.right .button {
+    width: 90%;
+    margin: 1rem;
+    padding: 20px;
+    background: #518CE4;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
 /*footer */
