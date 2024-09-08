@@ -12,38 +12,19 @@
   box-sizing: border-box;
 }
 
-.hero__container {
-  width: 100%;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
   display: flex;
   flex-direction: column;
-  text-align: center;
   gap: 1rem;
-}
-
-.hero__img {
-  width: 100%;
-}
-
-.hero__paragraph > h1 {
-  margin: .5rem 0px;
-}
-
-.hero__btn {
-  width: 200px;
-  padding: 10px 20px;
-  border-radius: 999999px;
-  background-color: var(--btn-color);
-}
-
-.hero__btn:hover {
-  cursor: pointer;
-  background-color: #6BC1F1;
 }
 
 .nav {
   background-color: var(--primary-color);
-
-/*functionality*/
 
   --img1: scale(1);
   --img2: scale(0);
@@ -126,6 +107,38 @@
   display: flex;
   align-items: center;
   gap: .6rem
+}
+
+.hero {
+  margin-top: -16px;
+}
+
+.hero__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.hero__paragraph > h1 {
+  margin: .5rem 0px;
+}
+
+.hero__btn {
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 999999px;
+  background-color: var(--btn-color);
+}
+
+.hero__btn:hover {
+  cursor: pointer;
+  background-color: #6BC1F1;
 }
 
 .hero__paragraph > h1 {
@@ -251,6 +264,33 @@
   font-size: 0.9rem;
 }
 
+.functionality__image {
+  display: none;
+}
+
+.functionality {
+  width: 100%;
+}
+
+.functionality__container {
+  padding: 30px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature__item {
+  display: flex;
+  gap: .5rem;
+}
+
 @media screen and (min-width: 768px) {
 
   .nav__container {
@@ -338,5 +378,27 @@
 
   .contact__group {
     justify-content: flex-start;
+  }
+
+  .features {
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .functionality__container {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+  }
+
+  .functionality__image {
+    display: block;
+    max-width: auto;
+  }
+
+  .functionality__image > img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
   }
 }
