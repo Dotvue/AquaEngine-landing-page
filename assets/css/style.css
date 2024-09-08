@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .Hero-div-1, .Hero-div-2 {
@@ -47,9 +47,55 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+/*Responsive*/
+@media (max-width: 768px) {
+    .Hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Hero-div-1, .Hero-div-2 {
+        flex: none;
+        width: 100%;
+    }
+
+    .Hero-div-1 {
+        order: 1;
+    }
+
+    .Hero-div-2 {
+        order: 2;
+        padding: 40px;
+    }
+
+    .Hero-div-2 h1 {
+        font-size: 20px;
+    }
+
+    .Hero-div-2-button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
 
 .Hero-div-2-button:hover {
     background-color: #0056b3;
+}
+/*Para celulares*/
+@media (max-width: 480px) {
+    .Hero-div-2 h1 {
+        font-size: 18px;
+    }
+
+    .Hero-div-2-button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .Hero-div-2 {
+        padding: 20px;
+    }
 }
 /*functionality*/
 
