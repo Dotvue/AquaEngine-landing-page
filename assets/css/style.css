@@ -16,7 +16,6 @@
 .footer {
   background-color: var(--primary-color);
   padding: 2rem 0;
-  text-align: center;
 }
 
 .footer__container {
@@ -29,7 +28,7 @@
 .footer__social,
 .footer__contact {
   max-width: 300px;
-  text-align: center;
+  text-align: center; 
 }
 
 .footer__social h2,
@@ -55,7 +54,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  justify-content: flex-start; 
+  justify-content: center; 
   margin-bottom: 1rem;
 }
 
@@ -70,9 +69,9 @@
 }
 
 @media screen and (min-width: 768px) {
-
+  
   .footer__container {
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-between; 
     padding: 20px;
     max-width: 1200px;
@@ -82,13 +81,10 @@
   .footer__social,
   .footer__contact {
     max-width: none; 
-  }
-
-  .footer__contact {
-    text-align: left;
+    text-align: left; 
   }
 
   .contact__group {
-    justify-content: flex-start;
+    justify-content: flex-start; 
   }
 }
