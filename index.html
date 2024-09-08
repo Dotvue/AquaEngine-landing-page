@@ -9,21 +9,46 @@
 <body>
     <!--Header-->
     <header class="header">
-        <nav class="navbar">
-            <div class="navbar__logo">
-                <img src="./assets/img/navbar/aquaengine-logo.png" width=150px height= 100px alt="aqua-engine-logo">
-            </div>
+        <nav class="nav">
 
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="">Home</a></li>
-                <li class="navbar__item"><a href="">About us</a></li>
-                <li class="navbar__item"><a href="">Our Service</a></li>
-            </ul>
+            <div class="nav__container">
+                <img src="./assets/img/navbar/aquaengine-logo.png" alt="aqua-engine-logo" class="nav__logo">
+                
+                <a href="#menu" class="nav__menu">
+                    <img src="./assets/img/navbar/svg/menu.svg" class="nav__icon" alt="menu-icon"/>
+                </a>
+                <a href="#" class="nav__menu nav__menu--second">
+                    <img src="./assets/img/navbar/svg/close.svg" class="nav__icon" alt="menu-icon"/>
+                </a>
 
-            <div class="search">
-                <input type="text" class="search__input">
-                <img src="./assets/img/navbar/svg/search.svg" alt="search-system-svg" class="search__icon">
+                <ul class="dropdown" id="menu">
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="./assets/img/navbar/svg/home.svg" alt="home-icon" class="nav__icon">
+                            <span class="dropdown__span">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="./assets/img/navbar/svg/about.svg" alt="home-icon" class="nav__icon">
+                            <span class="dropdown__span">About us</span>
+                        </a>
+                    </li>
+
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="./assets/img/navbar/svg/service.svg" alt="home-icon" class="nav__icon">
+                            <span class="dropdown__span">Our Service</span>
+                        </a>
+                    </li>
+
+                    
+                </ul>
             </div>
+            
+                <!-- <input type="text" class="search__input">
+                <img src="./assets/img/navbar/svg/search.svg" alt="search-system-svg" class="search__icon"> -->
         </nav>
     </header>
 </body>
