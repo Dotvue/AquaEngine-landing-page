@@ -155,6 +155,7 @@ body {
 
 .functionality {
   width: 100%;
+  
 }
 
 .functionality__container {
@@ -302,7 +303,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
-
   padding: 1rem;
   margin: 0 auto;
   max-width: 1200px;
@@ -394,7 +394,7 @@ body {
   }
 
   .functionality {
-    margin-top: 25px;
+    margin: 25px 0;
   }
 
   .features {
@@ -424,4 +424,180 @@ body {
   }
 }
 
+
+/*Subscription section*/
+.subscription {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+
+.subscription__title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+#paragraph-subs {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+
+#standar-plan, #plus-plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 280px; 
+    margin: 2rem; 
+    display: inline-block; 
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#standar-plan {
+  background-color: #518CE4;
+}
+
+#plus-plan {
+  background-color: #6BC1F1;
+}
+
+#standar-plan:hover, #plus-plan:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#standar-header, #plus-header {
+  background: #6BC1F1;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+#plus-header {
+  background-color: #518CE4;
+}
+
+#standar-header h2, #plus-header h2 {
+  margin: 0;
+  color: #333;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#standar-price, #plus-price {
+  font-size: 2rem;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+#standar-period, #plus-period {
+  color: black;
+  line-height: 1.2;
+}
+
+#standar-body, #plus-body {
+  padding: 1rem;
+  background-color: #518CE4;
+}
+
+#plus-body {
+  background-color: #6BC1F1;
+}
+
+#standar-features, #plus-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#standar-features li, #plus-features li {
+  padding: 0.5rem 0;
+  color: white;
+  line-height: 1.2;
+}
+
+#plus-features li {
+  color: black;
+}
+
+#standar-footer, #plus-footer {
+  background: #518CE4;
+  padding: 0.5rem;
+}
+
+#plus-footer {
+  background-color: #6BC1F1;
+}
+
+#standar-button, #plus-button {
+  background: #6BC1F1;
+  border: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#plus-button {
+  background-color: #518CE4;
+}
+
+@media (max-width: 600px) {
+.subscription {
+  margin-top: 25px;
+}
+  #standar-plan, #plus-plan {
+      width: 90%; 
+      margin: 1rem auto; 
+  }
+
+  #tittle-subs {
+      font-size: 2rem; 
+  }
+
+  #paragraph-subs {
+      font-size: 1.1rem; 
+  }
+
+  #standar-price, #plus-price {
+      font-size: 1.8rem; 
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+.subscription {
+  margin-top: 25px;
+}
+
+  #standar-plan, #plus-plan {
+      width: 45%; 
+      margin: 1.5rem; 
+  }
+
+  #tittle-subs {
+      font-size: 2.2rem; 
+  }
+
+  #paragraph-subs {
+      font-size: 1.2rem; 
+  }
+
+  #standar-price, #plus-price {
+      font-size: 2rem;
+  }
+}
 
