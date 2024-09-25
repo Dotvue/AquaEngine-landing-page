@@ -136,11 +136,14 @@ section {
   box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+.hero__paragraph > p {
+  margin: 1.5rem;
+}
+
 .hero__btn {
   width: 200px;
   padding: 10px 20px;
   border-radius: 999999px;
-  margin-top: 1.5rem;
   background-color: var(--btn-color);
 }
 
