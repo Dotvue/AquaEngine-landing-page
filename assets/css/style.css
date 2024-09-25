@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
 :root {
   --primary-color: #6584F1;
   --secondary-color: #8298E7;
@@ -10,6 +12,7 @@
   padding: 0;
   border: none;
   box-sizing: border-box;
+  font-family: "Jacques Francois", serif;
 }
 
 body {
