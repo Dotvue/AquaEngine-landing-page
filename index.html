@@ -7,7 +7,7 @@
 
     </head>
 
-    <body>
+    <>
         <div class="container">
 
             <!--navbar section-->
@@ -46,10 +46,17 @@
                                 </a>
                             </li>
 
+                            <li class="toogle dropdown__list">
+                                <div class="toogle__container">
+                                    <label class="toogle__switch">
+                                        <input class="toogle__input" type="checkbox" id="language-toggle">
+                                        <span class="toogle__slider"></span>
+                                    </label>
 
+                                    <span id="language-label">ES</span>
+                                </div>
+                            </li>
                         </ul>
-
-
                     </div>
                 </nav>
 
@@ -310,5 +317,7 @@
                 </div>
             </footer>
         </div>
+
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>

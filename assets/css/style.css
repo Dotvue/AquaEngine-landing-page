@@ -101,15 +101,78 @@ body {
   list-style: none;
 }
 
-.dropdown__link {
+.dropdown__link,
+.toogle__container {
+
+  display: flex;
+  gap: .6rem;
+  align-items: center;
+
+
   color: var(--white);
   padding: 1em .7em;
   text-decoration: none;
-
-  display: flex;
-  align-items: center;
-  gap: .6rem
 }
+
+/*--toggle-styles--*/
+
+.toogle__switch {
+  display: inline-block;
+
+  position: relative;
+  width: 60px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.toogle__input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toogle__slider {
+  border-radius: 34px;
+
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.toogle__slider:before {
+
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  background-color: white;
+
+  height: 26px;
+  width: 26px;
+
+  left: 4px;
+  bottom: 4px;
+  
+  transition: .4s;
+}
+
+input:checked + .toogle__slider {
+  background-color: #2196F3;
+}
+
+input:checked + .toogle__slider:before {
+  transform: translateX(26px);
+}
+
+.content {
+  text-align: center;
+}
+
+/*--end-toggle-styles--*/
 
 section {
   margin-bottom: 25px;
@@ -347,8 +410,9 @@ section {
 @media screen and (min-width: 1200px) {
 
   .nav__container {
-    grid-template-columns: auto max-content;
-    grid-template-areas: "logo links";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .nav__menu, .nav__menu--second {
@@ -366,6 +430,7 @@ section {
   }
 
   .dropdown__link {
+    margin-top: 20px;
     padding: 0;
   }
 
