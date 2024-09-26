@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>AquaEngine - Landing page</title>
         <link rel="stylesheet" href="./assets/css/style.css">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="AquaEngine - Plataforma para gestionar producción en la industria pesquera">
     </head>
-
-    <>
         <div class="container">
 
             <!--navbar section-->
@@ -28,21 +27,21 @@
                             <li class="dropdown__list">
                                 <a href="#" class="dropdown__link">
                                     <img src="./assets/img/navbar/svg/home.svg" alt="home-icon" class="nav__icon">
-                                    <span class="dropdown__span">Inicio</span>
+                                    <span class="dropdown__span home">Inicio</span>
                                 </a>
                             </li>
 
                             <li class="dropdown__list">
                                 <a href="#" class="dropdown__link">
                                     <img src="./assets/img/navbar/svg/about.svg" alt="home-icon" class="nav__icon">
-                                    <span class="dropdown__span">Quiénes somos</span>
+                                    <span class="dropdown__span about">Quiénes somos</span>
                                 </a>
                             </li>
 
                             <li class="dropdown__list">
                                 <a href="#" class="dropdown__link">
                                     <img src="./assets/img/navbar/svg/service.svg" alt="home-icon" class="nav__icon">
-                                    <span class="dropdown__span">Nuestro servicio</span>
+                                    <span class="dropdown__span service">Nuestro servicio</span>
                                 </a>
                             </li>
 
@@ -53,7 +52,7 @@
                                         <span class="toogle__slider"></span>
                                     </label>
 
-                                    <span id="language-label">ES</span>
+                                    <span class="toogle__language">ES</span>
                                 </div>
                             </li>
                         </ul>
@@ -68,9 +67,9 @@
                     <img class="hero__img" src="./assets/img/hero-image.jpg" alt="hero-image">
 
                     <div class="hero__paragraph">
-                        <h1>Gestiona toda tu producción de maquinaria pesquera</h1>
-                        <p>Desde la solicitud hasta la operación, nuestra plataforma optimiza la gestión de maquinaria pesquera, ayudándote a controlar cada etapa del proceso de producción de manera eficiente y sencilla.</p>
-                        <button class="hero__btn">Start</button>
+                        <h1 class="hero__title">Gestiona toda tu producción de maquinaria pesquera</h1>
+                        <p class="hero__info">Desde la solicitud hasta la operación, nuestra plataforma optimiza la gestión de maquinaria pesquera, ayudándote a controlar cada etapa del proceso de producción de manera eficiente y sencilla.</p>
+                        <button class="hero__btn">Visitar Aplicación Web</button>
                     </div>
                 </div>
             </section>
@@ -80,37 +79,37 @@
                 <div class="functionality__container">
 
                     <div class="features">
-                        <h2>Características de uso</h2>
+                        <h2 class="features__title">Características de uso</h2>
 
                         <div class="feature__item">
                             <div class="item__icon">✔️</div>
                             <div class="text">
-                                <h3>Inventario</h3>
-                                <p>En esta sección el usuario podrá visualizar los materiales que le facilitaremos para el desarrollo del proyecto que desea impulsar.</p>
+                                <h3 class="features__subtitle features__subtitle--inventory">Inventario</h3>
+                                <p class="features__info features__info--inventory">Podrás visualizar los materiales que le facilitaremos para el desarrollo del proyecto que desea impulsar.</p>
                             </div>
                         </div>
 
                         <div class="feature__item">
                             <div class="item__icon">✔️️</div>
                             <div class="text">
-                                <h3>Facturación</h3>
-                                <p>El usuario factura sus proyectos.</p>
+                                <h3 class="features__subtitle features__subtitle--invoicing">Facturación</h3>
+                                <p class="features__info features__info--invoicing">Podrás visualizar las facturas de todos tus pedidos de equipamiento.</p>
                             </div>
                         </div>
 
                         <div class="feature__item">
                             <div class="item__icon">✔️</div>
                             <div class="text">
-                                <h3>Monitoreo de equipos</h3>
-                                <p>Se realizará seguimiento al trabajo que el usuario propuso a la empresa.</p>
+                                <h3 class="features__subtitle features__subtitle--monitoring">Monitoreo de equipos</h3>
+                                <p class="features__info features__info--monitoring">Se realizará seguimiento al trabajo que el usuario propuso a la empresa.</p>
                             </div>
                         </div>
 
                         <div class="feature__item">
                             <div class="item__icon">✔️</div>
                             <div class="text">
-                                <h3>Máquina de pedidos</h3>
-                                <p>Una vez finalizado el proyecto, se envía una solicitud de aprobación al usuario.</p>
+                                <h3 class="features__subtitle features__subtitle--machine">Máquina de pedidos</h3>
+                                <p class="features__info features__info--machine">Una vez finalizado el proyecto, se envía una solicitud de aprobación al usuario.</p>
                             </div>
                         </div>
                     </div>
@@ -123,11 +122,10 @@
 
             <!--subscription section-->
             <section class="subscription">
-                <h1 class="subscription__title">Types of subscriptions</h1>
+                <h1 class="subscription__title">Tipos de Suscripciones</h1>
 
-                <p id="paragraph-subs">
-                  Find out and choose the subscription that best suits you to achieve
-                  potential growth in your company
+                <p id="paragraph-subs" class="subscription__description">
+                    Descubre y elige la suscripción que más te convenga para conseguir un crecimiento potencial en tu empresa
                 </p>
           
                 <!--Standar Subscription-->
@@ -135,7 +133,7 @@
                   <div id="standar-header">
                     <h2>Standar</h2>
                     <p id="standar-price">$50</p>
-                    <p id="standar-period">Per month</p>
+                    <p id="standar-period" class="subscription__plan">Mensual</p>
                   </div>
                   <div id="standar-body">
                     <ul id="standar-features">
@@ -145,7 +143,7 @@
                     </ul>
                   </div>
                   <div id="standar-footer">
-                    <button id="standar-button">Select Plan</button>
+                    <button id="standar-button" class="subscription__button">Seleccionar Plan</button>
                   </div>
                 </div>
           
@@ -154,7 +152,7 @@
                   <div id="plus-header">
                     <h2>Plus</h2>
                     <p id="plus-price">$120</p>
-                    <p id="plus-period">Per month</p>
+                    <p id="plus-period" class="subscription__plan">Mensual</p>
                   </div>
                   <div id="plus-body">
                     <ul id="plus-features">
@@ -164,7 +162,7 @@
                     </ul>
                   </div>
                   <div id="plus-footer">
-                    <button id="plus-button">Select Plan</button>
+                    <button id="plus-button" class="subscription__button">Seleccionar Plan</button>
                   </div>
                 </div>
 
@@ -175,11 +173,11 @@
 
                 <div class="testimonials__header">
                     <h2 class="testimonials__title">
-                        <span class="testimonials__title-highlight">Escucha que dicen nuestros</span> Clientes
+                        <span class="testimonials__title-highlight">Escucha que dicen nuestros Clientes</span>
                     </h2>
                     <p class="testimonials__text">
                         Descubre cómo hemos ayudado a nuestros clientes a alcanzar sus metas
-                        agrícolas con nuestras soluciones.
+                        pesqueras con nuestras soluciones.
                     </p>
                 </div>
 
@@ -278,8 +276,8 @@
                     <div class="footer__social">
                         <h2>AquaEngine</h2>
 
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam error voluptas adipisci quos ratione inventore ad exercitationem nesciunt iure tempora eveniet
+                        <p class="footer__copyright">
+                            © 2021 Todos los derechos reservados. Diseñado por DotVue
                         </p>
 
                         <div class="social__logos">
@@ -296,7 +294,7 @@
                     </div>
 
                     <div class="footer__contact">
-                        <h2>Contact us</h2>
+                        <h2 class="footer__contact--title">Contáctanos</h2>
 
                         <div class="contact__group">
                             <img src="./assets/img/footer/email.svg" alt="email-svg" class="contact__logo">
@@ -318,6 +316,6 @@
             </footer>
         </div>
 
-        <script src="./assets/js/script.js"></script>
+        <script src="/assets/js/app.js"></script>
     </body>
 </html>
