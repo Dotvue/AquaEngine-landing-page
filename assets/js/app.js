@@ -49,11 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.subscription__description').textContent = data.subscriptions.description;
 
         const subscriptionPlans = document.querySelectorAll('.subscription__plan');
-        console.log('Found subscription plans:', subscriptionPlans.length); // Verifica cuántos elementos se encontraron
-
         subscriptionPlans.forEach(plan => {
-          plan.textContent = data.subscriptions.plan; // Asignar el texto de "plan" a cada plan
-          console.log('Updated plan text:', plan.textContent); // Verifica el texto que se está asignando
+          plan.textContent = data.subscriptions.plan;
         });
 
         const subscriptionBtn = document.querySelectorAll('.subscription__button');
