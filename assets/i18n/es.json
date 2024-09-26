@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "language": "ES",
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "service": "Nuestro servicio"
+  },
+
+  "hero": {
+    "title": "Gestiona toda tu producción de maquinaria pesquera",
+    "description": "Desde la solicitud hasta la operación, nuestra plataforma optimiza la gestión de maquinaria pesquera, ayudándote a controlar cada etapa del proceso de producción de manera eficiente y sencilla.",
+    "button": "Vistiar Aplicación Web"
+  },
+
+  "features": {
+
+    "title": "Características de uso",
+
+    "subtitles": {
+      "inventory": "Inventario",
+      "invoicing": "Facturación",
+      "equipmentMonitoring": "Monitoreo de Equipos",
+      "orderingMachine": "Solicitud de Máquinas"
+    },
+
+    "descriptions": {
+      "inventory": "Gestiona tu inventario de maquinaria pesquera de manera eficiente y sencilla.",
+      "invoicing": "Crea facturas de manera rápida y sencilla, y lleva un control de tus ingresos y egresos.",
+      "equipmentMonitoring": "Monitorea el estado de tus equipos en tiempo real y recibe notificaciones de mantenimiento.",
+      "orderingMachine": "Solicita máquinas de manera rápida y sencilla, y lleva un control de tus solicitudes."
+    }
+  },
+
+  "subscriptions": {
+    "title": "Tipos de Suscripciones",
+    "description": "Descubre y elige la suscripción que más te convenga para conseguir un crecimiento potencial en tu empresa",
+    "plan": "Mensual",
+    "button": "Seleccionar Plan"
+  },
+
+  "testimonials": {
+    "title": "Escucha que dicen nuestros Clientes",
+    "description": "Descubre cómo hemos ayudado a nuestros clientes a alcanzar sus metas pesqueras con nuestras soluciones."
+  },
+
+  "footer": {
+    "copyright": "© 2021 Todos los derechos reservados. Diseñado por DotVue",
+    "contact": "Contáctanos"
+  }
+}

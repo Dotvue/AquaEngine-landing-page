@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "language": "EN",
+    "home": "Home",
+    "about": "About Us",
+    "service": "Our Service"
+  },
+
+  "hero": {
+    "title": "Manage all your fishery machinery production",
+    "description": "From request to operation, our platform optimizes the management of fishery machinery, helping you control each stage of the production process efficiently and easily.",
+    "button": "Visit Web Application"
+  },
+
+  "features": {
+
+    "title": "Features of use",
+
+    "subtitles": {
+      "inventory": "Inventory",
+      "invoicing": "Invoicing",
+      "equipmentMonitoring": "Equipment Monitoring",
+      "orderingMachine": "Ordering Machine"
+    },
+
+    "descriptions": {
+      "inventory": "Manage your fishery machinery inventory efficiently and easily.",
+      "invoicing": "Create invoices quickly and easily, and keep track of your income and expenses.",
+      "equipmentMonitoring": "Monitor the status of your equipment in real time and receive maintenance notifications.",
+      "orderingMachine": "Request machines quickly and easily, and keep track of your requests."
+    }
+  },
+
+  "subscriptions": {
+    "title": "Types of Subscriptions",
+    "description": "Discover and choose the subscription that best suits you to achieve potential growth in your company",
+    "plan": "Monthly",
+    "button": "Select Plan"
+  },
+
+  "testimonials": {
+    "title": "Listen to what our Customers say",
+    "description": "Discover how we have helped our customers achieve their fishery goals with our solutions."
+  },
+
+  "footer": {
+    "copyright": "© 2021 All rights reserved. Designed by DotVue",
+    "contact": "Contact Us"
+  }
+}
