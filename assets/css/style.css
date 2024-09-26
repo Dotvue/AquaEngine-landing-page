@@ -468,6 +468,10 @@ section {
       white-space: nowrap;
   }
 
+  .testimonials__cards {
+    width: 80%;
+  }
+
   .features {
     width: 80%;
     max-width: 700px;
