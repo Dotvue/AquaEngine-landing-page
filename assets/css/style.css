@@ -5,6 +5,7 @@
   --secondary-color: #8298E7;
   --btn-color: #518CE4;
   --white: #ffffff;
+  --black: #000000;
 }
 
 * {
@@ -210,6 +211,8 @@ section {
 .hero__btn {
   width: 200px;
   padding: 10px 20px;
+  color: var(--black);
+  text-decoration: none;
   border-radius: 999999px;
   background-color: var(--btn-color);
 }
