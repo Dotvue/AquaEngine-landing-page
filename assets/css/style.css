@@ -157,7 +157,7 @@ body {
 
   left: 4px;
   bottom: 4px;
-  
+
   transition: .4s;
 }
 
@@ -254,6 +254,37 @@ section {
 
 .functionality__image {
   display: none;
+}
+
+/**/
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto auto 25px auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.presentation__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+}
+
+.presentation__video {
+  width: min(800px, 100%);
+  height: 400px;
+}
+
+/* Opcional: centrado general del texto */
+.presentation__title, .presentation__text {
+  text-align: center;
 }
 
 /*recommendations */
@@ -510,7 +541,6 @@ section {
     padding: 2rem;
     text-align: center;
     background-color: #f4f4f4;
-
     width: 90%;
     margin: auto auto 25px auto;
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -524,21 +554,14 @@ section {
     margin-bottom: 1rem;
 }
 
-#paragraph-subs {
-    font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 2rem;
-}
-
-
 #standar-plan, #plus-plan {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 280px; 
-    margin: 2rem; 
-    display: inline-block; 
+    width: 280px;
+    margin: 2rem;
+    display: inline-block;
     text-align: center;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -637,20 +660,20 @@ section {
 
 @media (max-width: 600px) {
   #standar-plan, #plus-plan {
-      width: 90%; 
-      margin: 1rem auto; 
+      width: 90%;
+      margin: 1rem auto;
   }
 
   #tittle-subs {
-      font-size: 2rem; 
+      font-size: 2rem;
   }
 
   #paragraph-subs {
-      font-size: 1.1rem; 
+      font-size: 1.1rem;
   }
 
   #standar-price, #plus-price {
-      font-size: 1.8rem; 
+      font-size: 1.8rem;
   }
 }
 
@@ -658,16 +681,16 @@ section {
 @media (min-width: 601px) and (max-width: 1024px) {
 
   #standar-plan, #plus-plan {
-      width: 45%; 
-      margin: 1.5rem; 
+      width: 45%;
+      margin: 1.5rem;
   }
 
   #tittle-subs {
-      font-size: 2.2rem; 
+      font-size: 2.2rem;
   }
 
   #paragraph-subs {
-      font-size: 1.2rem; 
+      font-size: 1.2rem;
   }
 
   #standar-price, #plus-price {
