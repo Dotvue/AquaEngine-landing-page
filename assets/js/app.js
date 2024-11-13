@@ -79,6 +79,17 @@ function updateSubscriptionsSection(subscriptions) {
   });
 }
 
+function updateAboutTheProductSection(aboutTheProduct) {
+  document.querySelector('.about-the-product__title').textContent = aboutTheProduct.title;
+  document.querySelector('.about-the-product__description').textContent = aboutTheProduct.description;
+}
+
+function updateAboutTheTeamSection(aboutTheTeam) {
+  document.querySelector('.about-us__title').textContent = aboutTheTeam.title;
+  document.querySelector('.about-us__description').textContent = aboutTheTeam.description;
+  document.querySelector('.about-us__collaborators').textContent = aboutTheTeam.subtitle;
+}
+
 function updateTestimonialsSection(testimonials) {
   document.querySelector('.testimonials__title-highlight').textContent = testimonials.title;
   document.querySelector('.testimonials__text').textContent = testimonials.description;
@@ -96,4 +107,6 @@ function updateContent(data) {
   updateSubscriptionsSection(data.subscriptions);
   updateTestimonialsSection(data.testimonials);
   updateFooter(data.footer);
+  updateAboutTheProductSection(data.aboutTheProduct);
+  updateAboutTheTeamSection(data.aboutTheTeam);
 }

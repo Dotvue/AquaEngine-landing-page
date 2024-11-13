@@ -38,6 +38,17 @@
     "button": "Select Plan"
   },
 
+  "aboutTheProduct": {
+    "title": "Video About the Product",
+    "description": "We present the main features and benefits of the product in a visual way, facilitating a quick and attractive understanding for users."
+  },
+
+  "aboutTheTeam": {
+    "title": "Meet our Team",
+    "description": "Dotvue is a startup dedicated to creating production management solutions that help traditional companies optimize their processes, we prioritize the user experience in order to give them a product tailored to be a powerful tool that they can use to perform their tasks more efficiently. In this way we can help them stand out in the market in which they operate.",
+    "subtitle": "Project Developers"
+  },
+
   "testimonials": {
     "title": "Listen to what our Customers say",
     "description": "Discover how we have helped our customers achieve their fishery goals with our solutions."

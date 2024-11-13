@@ -563,6 +563,10 @@ section {
   padding: 2rem;
 }
 
+.about-us__collaborators {
+  margin-top: 1rem;
+}
+
 .startup{
   text-align: center;
   color: black;
@@ -574,6 +578,7 @@ section {
 .startup img{
   width: 15%;
 }
+
 .members{
   width: 90%;
   margin: 0 auto;

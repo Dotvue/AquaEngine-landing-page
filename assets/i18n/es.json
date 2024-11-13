@@ -38,6 +38,17 @@
     "button": "Seleccionar Plan"
   },
 
+  "aboutTheProduct": {
+    "title": "Video Sobre el Producto",
+    "description": "Presentamos las principales características y beneficios del producto de manera visual, facilitando una comprensión rápida y atractiva para los usuarios."
+  },
+
+  "aboutTheTeam": {
+    "title": "Conoce a nuestro Equipo",
+    "description": "Dotvue es una startup dedicada a crear soluciones de gestión de producción que ayudan a empresas tradicionales a optimizar sus procesos, priorizamos la experiencia del usuario para así darle un producto a la medida que sea una herramienta poderosa que pueda utiliar para desempeñar sus labores más eficientemente. De ese modo podemos ayudarlos  a destacar en el mercado en el que se desempeñan.",
+    "subtitle": "Desarrolladores del Proyecto"
+  },
+
   "testimonials": {
     "title": "Escucha que dicen nuestros Clientes",
     "description": "Descubre cómo hemos ayudado a nuestros clientes a alcanzar sus metas pesqueras con nuestras soluciones."
